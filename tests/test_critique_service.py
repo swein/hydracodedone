@@ -1,7 +1,6 @@
 # Placeholder for critique_service tests
 # We will add tests for prepare_critique_messages
 
-import pytest
 from src.models.openai_types import CustomChatCompletionMessage
 from openai.types.chat import ChatCompletionMessage as OpenAIChatCompletionMessage
 from src.services.critique_service import prepare_critique_messages

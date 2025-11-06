@@ -6,3 +6,4 @@ openai>=1.0.0,<2.0.0 # For official OpenAI Pydantic models
 # Testing
 pytest
 pytest-asyncio # Added earlier in llm_clients.py, ensuring it's here
+respx # For mocking HTTP requests in tests
